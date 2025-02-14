@@ -142,7 +142,7 @@ ul {
     text-align: center;
 }
 
-/* Botão de sortear título */
+/* Botão de sortear amigo */
 .button-draw {
     display: flex;
     align-items: center;
@@ -151,6 +151,7 @@ ul {
     color: var(--color-white);
     background-color: var(--color-button);
     font-size: 16px;
+    font-weight: bold; /* Deixa o texto em negrito */
 }
 
 .button-draw img {
@@ -159,4 +160,27 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+
+/* botão de reiniciar */
+.button-reiniciar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px 40px;
+    font-size: 16px;
+    background-color: #d4a50e; /* Tom de amarelo mais escuro */
+    color: #FFF;
+    opacity: 0.8;
+}
+
+.button-reiniciar img {
+    margin-right: 40px;
+}
+
+.button-reiniciar:hover {
+    opacity: 1;
+    background-color: #b88d0a; /* Tom de amarelo mais escuro no hover */
 }
